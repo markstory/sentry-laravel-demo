@@ -37,6 +37,9 @@ export default class Example extends Component {
     });
     input = '';
     this.setState({items, input});
+    if (items.length > 2) {
+      throw new Error("aaaaaaaaaaahhhhh");
+    }
   }
 
   onItemChange(id, checked) {

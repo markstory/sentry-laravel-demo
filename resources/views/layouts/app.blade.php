@@ -12,6 +12,9 @@
         <div class="container">
             @yield('content')
         </div>
+        <script>
+        window.SENTRY_DSN = '{{ env('SENTRY_DSN_V2') }}';
+        </script>
         <script src="{{ asset('js/app.js') }}"></script>
     </body>
 </html>
