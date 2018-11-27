@@ -13,5 +13,6 @@
         <li><a href="/blog/1">ORM error</a></li>
         <li><a href="/warning">PHP warning</a></li>
         <li><a href="/logging">Logging</a></li>
+        <li><a href="/react">javascript error</a></li>
     </ul>
 @endsection

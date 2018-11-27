@@ -1,0 +1,13 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url("http://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic");
+@import url("http://cdn.rawgit.com/necolas/normalize.css/master/normalize.css");
+@import url("http://cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css");
+
+// Variables
+@import 'variables';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}

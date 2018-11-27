@@ -13,6 +13,7 @@
 Route::view('/', 'home');
 
 Route::view('/template', 'template-error');
+Route::view('/react', 'react-page');
 
 Route::get('/blog/{slug}', 'ArticleController@show');
 
