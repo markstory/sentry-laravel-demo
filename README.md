@@ -6,7 +6,8 @@ This shows how to use Sentry in Laravel to capture errors/exceptions
 1. `composer install`
 2. Set your DSN key + projectID in `.env`
 3. Run server. `php artisan serve`
-4. Go to http://localhost:8000 to trigger error. You should see issue/event within Sentry project
+4. Go to http://localhost:8000 to see a page with links to various errors you
+   can trigger.
 
 # Resources:
 - https://sentry.io/for/laravel/
